@@ -42,4 +42,10 @@ describe('project-1.js', () => {
       expect(helpers.greaterThanFifty(49)).toBe(false);
     })
   })
+
+  describe('add', () => {
+    it('returns the sum of two given numbers', () => {
+      expect(helpers.add(4,2)).toBe(6);
+    })
+  })
 })
