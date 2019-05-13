@@ -48,4 +48,10 @@ describe('project-1.js', () => {
       expect(helpers.add(4,2)).toBe(6);
     })
   })
+
+  describe('subtract', () => {
+    it('returns the difference between two given numbers', () => {
+      expect(helpers.subtract(4,2)).toBe(2);
+    })
+  })
 })
