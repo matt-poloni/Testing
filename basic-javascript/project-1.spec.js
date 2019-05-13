@@ -54,4 +54,10 @@ describe('project-1.js', () => {
       expect(helpers.subtract(4,2)).toBe(2);
     })
   })
+
+  describe('divide', () => {
+    it('returns the result of dividing the first number by the second', () => {
+      expect(helpers.divide(4,2)).toBe(2);
+    })
+  })
 })
