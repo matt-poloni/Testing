@@ -13,4 +13,11 @@ describe('project-1.js', () => {
       expect(helpers.subtractFive(10)).toBe(5);
     })
   })
+
+  describe('areSameLength', () => {
+    it('determines if two strings are the same length', () => {
+      expect(helpers.areSameLength('hey','you')).toBe(true);
+      expect(helpers.areSameLength('hey there','hi there')).toBe(false);
+    })
+  })
 })
