@@ -20,4 +20,12 @@ describe('project-1.js', () => {
       expect(helpers.areSameLength('hey there','hi there')).toBe(false);
     })
   })
+
+  describe('areEqual', () => {
+    it('determines if two items are strictly equal (===)', () => {
+      const x = 5;
+      expect(helpers.areEqual(x,5)).toBe(true);
+      expect(helpers.areEqual(x,6)).toBe(false);
+    })
+  })
 })
