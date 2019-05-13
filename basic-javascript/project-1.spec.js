@@ -79,4 +79,11 @@ describe('project-1.js', () => {
       expect(helpers.isEven(3)).toBe(false);
     })
   })
+
+  describe('isOdd', () => {
+    it('determines if the given number is odd', () => {
+      expect(helpers.isOdd(3)).toBe(true);
+      expect(helpers.isOdd(2)).toBe(false);
+    })
+  })
 })
