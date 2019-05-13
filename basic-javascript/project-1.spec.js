@@ -72,4 +72,11 @@ describe('project-1.js', () => {
       expect(helpers.getRemainder(3,2)).toBe(1);
     })
   })
+
+  describe('isEven', () => {
+    it('determines if the given number is even', () => {
+      expect(helpers.isEven(2)).toBe(true);
+      expect(helpers.isEven(3)).toBe(false);
+    })
+  })
 })
