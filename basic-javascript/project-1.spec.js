@@ -66,4 +66,10 @@ describe('project-1.js', () => {
       expect(helpers.multiply(4,2)).toBe(8);
     })
   })
+
+  describe('getRemainder', () => {
+    it('returns the remainder of dividing the first number by the second', () => {
+      expect(helpers.getRemainder(3,2)).toBe(1);
+    })
+  })
 })
