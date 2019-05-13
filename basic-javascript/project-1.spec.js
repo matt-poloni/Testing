@@ -7,4 +7,10 @@ describe('project-1.js', () => {
       expect(helpers.multiplyByTen(10)).toBe(100);
     })
   })
+
+  describe('subtractFive', () => {
+    it('subtracts 5 from the given number', () => {
+      expect(helpers.subtractFive(10)).toBe(5);
+    })
+  })
 })
