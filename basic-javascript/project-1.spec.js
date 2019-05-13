@@ -35,4 +35,11 @@ describe('project-1.js', () => {
       expect(helpers.lessThanNinety(91)).toBe(false);
     })
   })
+
+  describe('greaterThanFifty', () => {
+    it('determines if a given number is greater than 50', () => {
+      expect(helpers.greaterThanFifty(51)).toBe(true);
+      expect(helpers.greaterThanFifty(49)).toBe(false);
+    })
+  })
 })
