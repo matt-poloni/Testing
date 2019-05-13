@@ -28,4 +28,11 @@ describe('project-1.js', () => {
       expect(helpers.areEqual(x,6)).toBe(false);
     })
   })
+
+  describe('lessThanNinety', () => {
+    it('determines if a given number is less than 90', () => {
+      expect(helpers.lessThanNinety(89)).toBe(true);
+      expect(helpers.lessThanNinety(91)).toBe(false);
+    })
+  })
 })
