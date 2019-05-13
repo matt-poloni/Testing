@@ -60,4 +60,10 @@ describe('project-1.js', () => {
       expect(helpers.divide(4,2)).toBe(2);
     })
   })
+
+  describe('multiply', () => {
+    it('returns the product of two given numbers', () => {
+      expect(helpers.multiply(4,2)).toBe(8);
+    })
+  })
 })
